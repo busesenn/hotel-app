@@ -4,7 +4,7 @@ import { useAppDispatch, useAppSelector } from '../redux/app/hooks'
 import Entypo from 'react-native-vector-icons/Entypo'
 import { Color } from '../Types'
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
-import { removeFavorite } from '../redux/FavoritesSlice'
+import { removeFavorite } from '../redux/app/FavoritesSlice'
 
 
 export default function FavsPage() {

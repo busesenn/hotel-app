@@ -18,7 +18,6 @@ import React from 'react';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import { useNavigation } from '@react-navigation/native';
 import RezervasyonGeçmişi from '../pages/RezervasyonGeçmişi';
-import OpeningPage from '../pages/OpeningPage';
 
 
 const Stack = createNativeStackNavigator();
@@ -73,6 +72,7 @@ export default function StackNavigator() {
                 title: "",
                 headerBackButtonDisplayMode: "minimal"
             }} />
+            <Stack.Screen name="RegisterPage" component={RegisterPage} />
             <Stack.Screen name="GuestPicker" component={GuestPicker} options={{
                 headerShown: true,
                 headerStyle: {

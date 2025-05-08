@@ -84,6 +84,13 @@ export default function FirstPage() {
                     <Text style={{ textAlign: "center", fontSize: 20, fontWeight: "500", color: "#000" }}>Giriş yap</Text>
                     <AntDesign name="arrowright" size={24} color="black" style={{ marginLeft: 15, marginTop: 1 }} />
                 </TouchableOpacity>
+
+                <TouchableOpacity style={{ paddingVertical: 15, borderRadius: 10, backgroundColor: "#e0e2db", flexDirection: "row", justifyContent: "center" }} onPress={() => {
+                    navigate.navigate("RegisterPage")
+                }}>
+                    <Text style={{ textAlign: "center", fontSize: 20, fontWeight: "500", color: "#000" }}>Kayıt Ol</Text>
+                    <AntDesign name="arrowright" size={24} color="black" style={{ marginLeft: 15, marginTop: 1 }} />
+                </TouchableOpacity>
             </View>
         </View >
     )

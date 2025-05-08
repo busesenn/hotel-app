@@ -11,8 +11,9 @@ import { Unusual } from '../Datas/MockDataUnusualPlaces';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../firebaseConfig';
 import DateTimePicker from '@react-native-community/datetimepicker';
-import { addFavorite, removeFavorite } from '../redux/FavoritesSlice';
+
 import { useAppDispatch, useAppSelector } from '../redux/app/hooks';
+import { addFavorite, removeFavorite } from '../redux/app/FavoritesSlice';
 
 export default function PopularHotelsDetail() {
     const navigate = useNavigation()

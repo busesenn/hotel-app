@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
-import FavoritesSlice from '../FavoritesSlice'
+import FavoritesSlice from './FavoritesSlice'
+
 
 
 export const store = configureStore({

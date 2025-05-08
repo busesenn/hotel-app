@@ -12,8 +12,9 @@ import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../firebaseConfig';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { useAppDispatch, useAppSelector } from '../redux/app/hooks';
-import { addFavorite, removeFavorite } from '../redux/FavoritesSlice';
+
 import AsyncStorage from "@react-native-async-storage/async-storage"
+import { addFavorite, removeFavorite } from '../redux/app/FavoritesSlice';
 
 export default function PopularHotelsDetail() {
     const navigate = useNavigation()

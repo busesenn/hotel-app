@@ -13,7 +13,8 @@ import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../firebaseConfig';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { useAppDispatch, useAppSelector } from '../redux/app/hooks';
-import { addFavorite, clearFavorite, removeFavorite } from '../redux/FavoritesSlice';
+import { addFavorite, removeFavorite } from '../redux/app/FavoritesSlice';
+;
 
 
 export default function MockDataDetail() {
