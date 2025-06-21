@@ -10,13 +10,8 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 
 export default function FirstPage() {
     const navigate = useNavigation()
-<<<<<<< HEAD
-    const [email, setEmail] = useState("test1@gmail.com")
-    const [password, setPassword] = useState("123456")
-=======
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
->>>>>>> 13e1e72 (Güncellendi)
     const [secureText, setSecureText] = useState(true)
 
     const login = async () => {
