@@ -10,9 +10,15 @@ export default function RegisterPage() {
     const navigate = useNavigation()
 
     const [formData, setFormData] = useState({
+<<<<<<< HEAD
         email: "test1@gmail.com",
         password: "123456",
         phoneNumber: "050500505",
+=======
+        email: "",
+        password: "123456",
+        phoneNumber: "",
+>>>>>>> 13e1e72 (Güncellendi)
         againPassword: "123456",
     })
 
@@ -62,6 +68,10 @@ export default function RegisterPage() {
                 <TextInput placeholder='Password'
                     secureTextEntry
                     value={formData.password} onChangeText={(text) => onChangeText("password", text)}
+<<<<<<< HEAD
+=======
+                    textContentType='none'
+>>>>>>> 13e1e72 (Güncellendi)
                     style={{ padding: 3, borderRadius: 8, backgroundColor: "#f7f4ea", opacity: .5, marginTop: 2 }} />
             </View>
 
@@ -70,6 +80,10 @@ export default function RegisterPage() {
                 <TextInput placeholder='Password'
                     secureTextEntry
                     value={formData.againPassword} onChangeText={(text) => onChangeText("againPassword", text)}
+<<<<<<< HEAD
+=======
+                    textContentType='none'
+>>>>>>> 13e1e72 (Güncellendi)
                     style={{ padding: 3, borderRadius: 8, backgroundColor: "#f7f4ea", opacity: .5, marginTop: 2 }} />
 
             </View>
